@@ -1,0 +1,22 @@
+{
+  "name": "liubang-leadership",
+  "interface": {
+    "displayName": "刘邦用人破局"
+  },
+  "plugins": [
+    {
+      "name": "liubang-leadership-skill",
+      "displayName": "刘邦用人破局",
+      "description": "刘邦，擅长识人、团队岗位规划、合伙人分工、排兵布局，用帝王用人思维帮我做创业团队搭建。",
+      "source": {
+        "source": "local",
+        "path": "./liubang-leadership-skill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "创业与领导力"
+    }
+  ]
+}
