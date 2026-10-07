@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "liubang-leadership-skill",
+  "version": "0.1.0",
+  "description": "A reusable decision skill for selecting people, aligning incentives, delegating work, integrating resources, and advancing goals under constraints.",
+  "author": {
+    "name": "lxx19761116"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "刘邦·用人破局",
+        "shortDescription": "识人用人，借力破局",
+        "longDescription": "把刘邦式的识人、用人、授权、结盟、资源整合与阶段性决策方法，转化为可复用的领导与任务编排 Skill。适合团队协作、子智能体分工、一人公司资源整合和复杂目标推进。",
+        "developerName": "lxx19761116",
+        "category": "Productivity",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": [
+          "刘邦，帮我看看这件事该用谁、怎么分工。",
+          "刘邦，我现在资源不够，帮我设计一个借力破局方案。",
+          "刘邦，帮我判断哪些事我该亲自做，哪些应该授权出去。"
+        ]
+      }
+    }
+  }
+}
