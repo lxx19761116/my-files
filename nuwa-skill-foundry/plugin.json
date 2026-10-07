@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "nuwa-skill-foundry",
+  "version": "0.1.0",
+  "description": "A reusable meta-skill that distills real tasks into focused, validated, installable skills.",
+  "author": {
+    "name": "lxx19761116"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "女娲 Skill 工厂",
+        "shortDescription": "把任务蒸馏成可安装 Skill",
+        "longDescription": "把聊天、流程、资料或一个反复执行的任务蒸馏成标准 Skill，生成可复用文件，执行质量校验，并在可用时完成私有安装或版本更新。",
+        "developerName": "lxx19761116",
+        "category": "Productivity",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": [
+          "女娲，把我接下来描述的任务蒸馏成一个 Skill。",
+          "女娲，把这套流程整理成可安装的 Skill，并做质量检查。",
+          "女娲，检查这个 Skill 是否需要更新，并给出新版本。"
+        ]
+      }
+    }
+  }
+}
