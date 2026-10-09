@@ -314,3 +314,7 @@ description: Use when the user needs to decide who should do what, how to delega
 - “刘邦，帮我把几个子智能体分好工。”
 - “刘邦，我资源不够，怎么借力破局？”
 - “刘邦，帮我看这个人适不适合这个岗位。”
+
+## 仓库视角模式
+
+当用户明确要求“用刘邦的视角”“切换到刘邦”“刘邦会怎么看”或历史角色扮演时，使用同插件的 `liubang-skill`，避免同时套用两个完整回答流程。日常团队分工仍按本 Skill 执行。
