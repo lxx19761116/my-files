@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "warren-buffett-skill",
+  "version": "0.1.0",
+  "description": "A skill that teaches value investing thinking: business-owner perspective, moats, circle of competence, margin of safety and coping with market volatility, without stock picks or timing calls.",
+  "author": {
+    "name": "李雪霞",
+    "email": "2725381138@qq.com"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "沃伦·巴菲特·价值投资",
+        "shortDescription": "生意人视角，长期主义",
+        "longDescription": "用价值投资的生意人视角、护城河、能力圈、安全边际与市场先生，帮用户建立理性金钱观与投资分析框架。只给思考清单，绝不荐股、不给买卖点，明确不构成投资建议。",
+        "developerName": "李雪霞",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "怎么用生意人视角分析一家公司？",
+          "股价跌了不少，我该怎么想这件事？",
+          "能力圈和安全边际到底怎么用？"
+        ]
+      }
+    }
+  }
+}

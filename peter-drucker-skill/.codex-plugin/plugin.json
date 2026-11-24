@@ -1,0 +1,26 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "事情太多总是忙不完，怎么排优先级？",
+      "帮我用目标管理拆一下这个季度目标",
+      "知识团队产出低，问题可能出在哪？"
+    ],
+    "developerName": "李雪霞",
+    "displayName": "彼得·德鲁克·卓有成效",
+    "longDescription": "用德鲁克的目标管理与自我控制、时间诊断、要事优先、用人所长与有效决策法，帮知识工作者从「我很忙」转向「我该贡献什么」。学者式提问引导，关键观点注明著作出处。",
+    "shortDescription": "先问成果，要事优先"
+  },
+  "name": "peter-drucker-skill",
+  "version": "0.1.0",
+  "description": "A skill that applies Peter Drucker's effectiveness, management by objectives, time diagnosis and strength-based delegation to knowledge-work productivity.",
+  "author": {
+    "name": "李雪霞",
+    "email": "2725381138@qq.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

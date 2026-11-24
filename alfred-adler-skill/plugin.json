@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "alfred-adler-skill",
+  "version": "0.1.0",
+  "description": "A skill applying Adlerian individual psychology: separation of tasks, teleology and community feeling, delivered through Socratic questioning rather than verdicts.",
+  "author": {
+    "name": "李雪霞",
+    "email": "2725381138@qq.com"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "阿德勒·课题分离与勇气",
+        "shortDescription": "这是谁的课题？",
+        "longDescription": "用阿德勒个体心理学的课题分离、目的论与共同体感觉，帮用户理清人际烦恼、自卑与改变的勇气。苏格拉底式提问引导，不替用户决定人生选择。",
+        "developerName": "李雪霞",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "我总在意别人怎么看我，怎么办？",
+          "父母总干涉我的选择，怎么划清边界？",
+          "道理都懂，就是迈不出改变那一步"
+        ]
+      }
+    }
+  }
+}

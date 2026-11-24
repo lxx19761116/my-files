@@ -1,0 +1,26 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "帮我看看这个手机号的数字组合",
+      "我的生日对应的生命数字是什么？",
+      "选号有什么讲究？"
+    ],
+    "developerName": "李雪霞",
+    "displayName": "数字能量·号码与生命数字参考",
+    "longDescription": "用生命灵数与八星磁场两套通行体系，解读生日与手机号里的数字规律，给「性格倾向 + 行为建议」两层结论。好的坏的都讲，不编造新规则，不引导花钱改号消灾。无科学实证，仅供文化了解与娱乐参考。",
+    "shortDescription": "号码是镜子，不是命"
+  },
+  "name": "numerology-energy-skill",
+  "version": "0.1.0",
+  "description": "A cultural-reference skill that reads birth dates and phone numbers via Pythagorean life-path numbers and the eight-star digit framework, without fatalistic claims or paid-number-change upsells.",
+  "author": {
+    "name": "李雪霞",
+    "email": "2725381138@qq.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

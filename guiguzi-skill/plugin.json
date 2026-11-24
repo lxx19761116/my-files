@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "guiguzi-skill",
+  "version": "0.1.0",
+  "description": "A skill applying Guiguzi's persuasion and negotiation framework to read intentions, pace disclosure, break deadlocks and craft usable talking points, for legitimate communication only.",
+  "author": {
+    "name": "李雪霞",
+    "email": "2725381138@qq.com"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "鬼谷子·说服与谋略",
+        "shortDescription": "先度其量，再定进退",
+        "longDescription": "用《鬼谷子》的捭阖、反应、揣摩、飞钳之术，帮用户做谈判说服、读对方真实意图与打破僵局，给到可直接开口的话术并推演对方回应。谋以正用，不教欺诈构陷。",
+        "developerName": "李雪霞",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "明天要谈一个合作，怎么说服对方？",
+          "谈判卡住了，怎么换轨？",
+          "怎么判断对方真正想要什么？"
+        ]
+      }
+    }
+  }
+}

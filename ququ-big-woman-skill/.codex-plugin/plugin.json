@@ -1,0 +1,26 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "他到底爱不爱我？帮我算算这段关系的账",
+      "我总不好意思拒绝，边界怎么立？",
+      "这个人值得深交吗？"
+    ],
+    "developerName": "李雪霞",
+    "displayName": "区区大女人·清醒关系账",
+    "longDescription": "用现实主义视角把亲密关系、婚姻与社交的账算明白：投入产出、沉没成本、边界底线、何时止损。口语直给、账本式拆解，犀利但护着用户；涉及家暴与经济控制明确引导报警取证找律师。",
+    "shortDescription": "感情可以感性，决策必须清醒"
+  },
+  "name": "ququ-big-woman-skill",
+  "version": "0.1.0",
+  "description": "A realistic relationship-analysis skill that weighs investment, returns, sunk costs, boundaries and exit points in intimacy, marriage and social leverage, with concrete scripts.",
+  "author": {
+    "name": "李雪霞",
+    "email": "2725381138@qq.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

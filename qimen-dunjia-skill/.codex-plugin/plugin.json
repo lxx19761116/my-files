@@ -1,0 +1,26 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "帮我按现在的时间起一局奇门，看看这件事的形势",
+      "这件事什么时候办比较合适？",
+      "这个局利什么方位？"
+    ],
+    "developerName": "李雪霞",
+    "displayName": "奇门遁甲·起局断局参考",
+    "longDescription": "用时家奇门的起局与断局框架，为择时、择方与形势分析提供传统术数视角的文化参考。强调先有盘再有话、吉凶两面都讲，无法精确排盘时如实说明局限，不硬编盘面。仅供传统文化研究与参考娱乐。",
+    "shortDescription": "先有局，再有话"
+  },
+  "name": "qimen-dunjia-skill",
+  "version": "0.1.0",
+  "description": "A cultural-reference skill outlining the Qi Men Dun Jia chart-casting and interpretation framework for timing and direction, with explicit limitations and no predictive claims.",
+  "author": {
+    "name": "李雪霞",
+    "email": "2725381138@qq.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "liu-bang-skill",
+  "version": "0.1.0",
+  "description": "A persona-perspective skill that applies Liu Bang's talent management, alliance building and comeback playbook to modern leadership and turnaround situations.",
+  "author": {
+    "name": "李雪霞",
+    "email": "2725381138@qq.com"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "刘邦·成事智慧",
+        "shortDescription": "识人用人，逆境翻盘",
+        "longDescription": "以汉高祖刘邦的成事智慧处理带队伍、识人用人、谋局借势与逆境翻盘：先问清你缺的是什么牌，拿《史记》典故打比方，给出上中下三策并逐策点明代价与收益。人物视角对话版，与仓库中方法论拆解版 liubang-leadership-skill 区分使用。",
+        "developerName": "李雪霞",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "我刚升职当小主管，老员工不服我怎么办？",
+          "创业初期就三五个人，怎么招人、怎么分活？",
+          "现在处境很被动，手里没牌，怎么翻盘？"
+        ]
+      }
+    }
+  }
+}

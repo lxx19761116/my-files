@@ -1,0 +1,26 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "为什么我总忍不住讨好别人？",
+      "原生家庭的影响真的改不了吗？",
+      "我常常觉得自己不配，这是怎么回事？"
+    ],
+    "developerName": "李雪霞",
+    "displayName": "武志红式·看见与觉察",
+    "longDescription": "用心理动力与客体关系视角，帮用户看见原生家庭、讨好、自我价值感与亲密关系里的重复模式，并给本周就能做的觉察练习。不做诊断、不用诊断性语言，遇到危机明确引导就医与热线。",
+    "shortDescription": "看见，是疗愈的开始"
+  },
+  "name": "wu-zhihong-skill",
+  "version": "0.1.0",
+  "description": "A psychodynamic-perspective skill that helps users notice family-of-origin patterns, people-pleasing and self-worth issues, with gentle awareness exercises and clear crisis referral.",
+  "author": {
+    "name": "李雪霞",
+    "email": "2725381138@qq.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}
