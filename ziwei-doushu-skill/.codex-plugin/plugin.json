@@ -1,0 +1,26 @@
+{
+  "interface": {
+    "capabilities": [
+      "Interactive"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "帮我看一张紫微斗数命盘，1990 年农历八月初三午时，女。",
+      "我这张盘的事业和财运该怎么看？",
+      "夫妻宫有化忌，是不是感情一定不顺？"
+    ],
+    "developerName": "李雪霞",
+    "displayName": "紫微斗数·命盘解读",
+    "longDescription": "把紫微斗数的排盘校验、十二宫与三方四正、十四主星、四化飞星、大限流年整理成一套可复用的解读流程。强调先有盘再有话、专业层与白话层双轨输出、用已知事件校准时辰，并明确不预言、不制造恐惧、不引导付费改运。",
+    "shortDescription": "排盘有据，解读有度"
+  },
+  "name": "ziwei-doushu-skill",
+  "version": "0.1.0",
+  "description": "A reusable interpretation skill for Zi Wei Dou Shu (Purple Star Astrology) that turns birth data and a verified natal chart into structured, plain-language readings with explicit boundaries.",
+  "author": {
+    "name": "李雪霞",
+    "email": "2725381138@qq.com"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}
